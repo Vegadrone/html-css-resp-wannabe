@@ -135,8 +135,9 @@ img {
 }
 
 @media all and (max-width: 480px) {
+
     .container{
-        width: 100%;
+        width:100%;
     }
 
     .row{
@@ -144,15 +145,33 @@ img {
         align-items: center;
     }
 
-    .lessons .col{
-        width: 100%;
-    }
-    
-    .why-us .col-left .col-right{
+    .col{
         width: 100%;
     }
 
-    .steps{
+    .lessons .col {
+        width: 100%;
+    }
+    
+    .lessons .col img {
+        width: 100%;
+        margin: 2rem 0rem;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col img {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .why-us .col-right {
         width: 100%;
     }
 }
